@@ -2,7 +2,8 @@
 
 namespace PHPAnt\Core;
 use PHPAnt\Core\Publisher;
-use Symfony\Component\Finder\SplFileInfo;
+use PHPUnit\Runner\Exception;
+use \SplFileInfo;
 
 /**
  * Publishes a PHP-Ant app from teh command line independent of the CLI environment.
@@ -24,8 +25,14 @@ if(in_array('k',array_keys($options))) {
 if($argc !== 2) $Publisher->showHelp();
 
 $path = $argv[1];
-if(file_exists($path) == false) die("Cannot find specified path. Try again.");
+//if(file_exists($path) == false) die("Cannot find specified path ($path). Try again.");
+"Trying to publish path: $path";
 
-$appPath = new SplFileInfo($argv[1]);
+try {
+    $appPath = new SplFileInfo($path);
+} catch (Exception $e) {
+    echo "Caught Exception: ", $e->getMessage(), PHP_EOL;
+    die('Quitting.');
+}
 
 $Publisher->publish($options, $appPath->getRealPath());

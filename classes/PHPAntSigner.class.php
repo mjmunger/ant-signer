@@ -43,8 +43,8 @@ class PHPAntSigner
     public function setApp($appPath) {
         $appName            = $this->getAppMeta($appPath,'name');
         $this->appPath      = $appPath;
-        $this->manifestPath = $this->appPath .'manifest.xml';
-        $filePath           = $this->appPath .'app.php';
+        $this->manifestPath = $this->appPath .'/manifest.xml';
+        $filePath           = $this->appPath .'/app.php';
 
         if(!file_exists($this->appPath)) {
             throw new \Exception("Could not find $this->appPath! Requested app ($appName) does not exist in $this->appRoot", 1);
@@ -564,7 +564,7 @@ for ease of verification.
         $return['generateManifestFile'] = $this->generateManifestFile();
                
         //4. Add actions.
-        $actions = $this->getAppActions($this->appPath);
+        $actions = $this->getAppActions($this->appPath . '/app.php');
 
         $return['appActions'] = json_encode($actions);
 

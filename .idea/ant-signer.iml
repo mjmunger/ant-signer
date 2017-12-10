@@ -23,7 +23,6 @@
           <root url="phar:///usr/share/php/phpDocumentor/tests/data/test.phar/" />
           <root url="phar:///usr/share/php/phpunit-6.3.0.phar/" />
           <root url="phar:///usr/share/php/dbunit.phar/" />
-          <root url="phar://$MODULE_DIR$/antpub.phar/" />
         </CLASSES>
         <SOURCES>
           <root url="phar:///usr/share/php/phpunit.phar/" />
@@ -31,7 +30,6 @@
           <root url="phar:///usr/share/php/phpDocumentor/tests/data/test.phar/" />
           <root url="phar:///usr/share/php/phpunit-6.3.0.phar/" />
           <root url="phar:///usr/share/php/dbunit.phar/" />
-          <root url="phar://$MODULE_DIR$/antpub.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
