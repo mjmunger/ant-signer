@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<app name="FooApp" namespace="PHPAnt\Core">
+  <file>
+    <name>/home/michael/ant-signer/tests/testapp/jetsam.txt</name>
+    <hash>7b116e061aa15e356af25fd29850aac1025462f4</hash>
+  </file>
+  <file>
+    <name>/home/michael/ant-signer/tests/testapp/flotsam.txt</name>
+    <hash>78d5b826dbd5e974bdc725fcdf39e1ce9672f958</hash>
+  </file>
+  <file>
+    <name>/home/michael/ant-signer/tests/testapp/app.php</name>
+    <hash>b757b91c56417dade0e766aa483116b9afbc0531</hash>
+  </file>
+</app>
