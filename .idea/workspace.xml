@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccbcc3e2-37d9-48d1-81a8-0c55c08d0294" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/michael.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/classes/PHPAntSigner.class.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/classes/PHPAntSignerFile.class.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/classes/Publisher.class.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/classes/bootstrap.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/phpunit.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/publish.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/PublisherTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/SignerTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/expected/expected-generateManifestFile.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/expected/expected-registerAllActions.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/expected/expected-registerhook.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/testapp/app.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/testapp/flotsam.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/testapp/jetsam.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/buildphar.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/ant-signer.iml" afterPath="$PROJECT_DIR$/.idea/ant-signer.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/publish.php" afterPath="$PROJECT_DIR$/publish.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/../../bugzy/www/includes/apps/phpant-app-manager/app.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="84" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -53,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/classes/PHPAntSigner.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="391" column="0" lean-forward="true" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
+              <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
               <folding>
                 <marker date="1512867091666" expanded="true" signature="15818:15959" ph="..." />
                 <marker date="1512867091666" expanded="true" signature="18078:18087" ph="..." />
@@ -88,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/tests/PublisherTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
-              <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+              <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
               <folding>
                 <element signature="e#7#38#0#PHP" expanded="true" />
               </folding>
@@ -99,18 +86,28 @@
       <file leaf-file-name="publish.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publish.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="221">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Publisher.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Publisher.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/Publisher.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="279">
               <caret line="95" column="25" lean-forward="false" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buildphar.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/buildphar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -166,8 +163,9 @@
         <option value="$PROJECT_DIR$/tests/PublisherTest.php" />
         <option value="$PROJECT_DIR$/tests/expected/expected-generateManifestFile.xml" />
         <option value="$PROJECT_DIR$/classes/PHPAntSigner.class.php" />
-        <option value="$PROJECT_DIR$/publish.php" />
         <option value="$PROJECT_DIR$/classes/Publisher.class.php" />
+        <option value="$PROJECT_DIR$/publish.php" />
+        <option value="$PROJECT_DIR$/buildphar.php" />
       </list>
     </option>
   </component>
@@ -238,23 +236,6 @@
             </path>
             <path>
               <item name="ant-signer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ant-signer" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ant-signer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ant-signer" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="expected" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ant-signer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ant-signer" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="testapp" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ant-signer" type="b2602c69:ProjectViewProjectNode" />
               <item name="phpant-app-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -308,12 +289,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512854935255</updated>
-      <workItem from="1512854936475" duration="12467000" />
+      <workItem from="1512854936475" duration="13797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12467000" />
+    <option name="totallyTimeSpent" value="13797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="0" />
@@ -377,7 +358,7 @@
     <entry file="file://$PROJECT_DIR$/../../bugzy/www/includes/apps/phpant-app-manager/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="84" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="84" />
           <folding />
         </state>
       </provider>
@@ -451,7 +432,7 @@
     <entry file="file://$PROJECT_DIR$/tests/PublisherTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
-          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
           <folding>
             <element signature="e#7#38#0#PHP" expanded="true" />
           </folding>
@@ -461,7 +442,7 @@
     <entry file="file://$PROJECT_DIR$/classes/PHPAntSigner.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="391" column="0" lean-forward="true" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
+          <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
           <folding>
             <marker date="1512867091666" expanded="true" signature="15818:15959" ph="..." />
             <marker date="1512867091666" expanded="true" signature="18078:18087" ph="..." />
@@ -469,18 +450,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/publish.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Publisher.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="95" column="25" lean-forward="false" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildphar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
