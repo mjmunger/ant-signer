@@ -18,17 +18,15 @@
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
-          <root url="phar:///usr/share/php/phpunit.phar/" />
-          <root url="phar:///usr/share/php/data/phpDocumentor/vendor/phpdocumentor/fileset/tests/data/test.phar/" />
+          <root url="phar:///usr/share/php/phpunit-6.5.3.phar/" />
           <root url="phar:///usr/share/php/phpDocumentor/tests/data/test.phar/" />
-          <root url="phar:///usr/share/php/phpunit-6.3.0.phar/" />
+          <root url="phar:///usr/share/php/data/phpDocumentor/vendor/phpdocumentor/fileset/tests/data/test.phar/" />
           <root url="phar:///usr/share/php/dbunit.phar/" />
         </CLASSES>
         <SOURCES>
-          <root url="phar:///usr/share/php/phpunit.phar/" />
-          <root url="phar:///usr/share/php/data/phpDocumentor/vendor/phpdocumentor/fileset/tests/data/test.phar/" />
+          <root url="phar:///usr/share/php/phpunit-6.5.3.phar/" />
           <root url="phar:///usr/share/php/phpDocumentor/tests/data/test.phar/" />
-          <root url="phar:///usr/share/php/phpunit-6.3.0.phar/" />
+          <root url="phar:///usr/share/php/data/phpDocumentor/vendor/phpdocumentor/fileset/tests/data/test.phar/" />
           <root url="phar:///usr/share/php/dbunit.phar/" />
         </SOURCES>
       </library>
