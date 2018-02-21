@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccbcc3e2-37d9-48d1-81a8-0c55c08d0294" name="Default" comment="">
+<<<<<<< HEAD
+=======
+      <change beforePath="" afterPath="$PROJECT_DIR$/CHANGES" />
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,16 +18,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../bugzy/www/includes/apps/phpant-app-manager/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/testapp/app.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -33,15 +27,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PHPAntSigner.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PHPAntSigner.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/PHPAntSigner.class.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="361" column="39" lean-forward="false" selection-start-line="361" selection-start-column="33" selection-end-line="361" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CHANGES" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CHANGES">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="580">
               <caret line="568" column="0" lean-forward="false" selection-start-line="568" selection-start-column="0" selection-end-line="568" selection-end-column="0" />
               <folding>
                 <marker date="1512875303352" expanded="true" signature="15820:15961" ph="..." />
                 <marker date="1512875303352" expanded="true" signature="18080:18089" ph="..." />
               </folding>
+=======
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
             </state>
           </provider>
         </entry>
@@ -83,7 +93,11 @@
       <file leaf-file-name="publish.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publish.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="187">
+=======
+            <state relative-caret-position="221">
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
               <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
               <folding>
                 <element signature="e#30#56#0#PHP" expanded="true" />
@@ -112,13 +126,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="install.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/install.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>generate</find>
-      <find>apps key generate</find>
-      <find>apps key</find>
       <find>generateNewKeys</find>
       <find>-&gt;AE</find>
       <find>$privateKeyPath</find>
@@ -146,7 +167,13 @@
       <find>registerAllActions</find>
       <find>registerHook</find>
       <find>getAppActions</find>
+      <find>\Sodium\</find>
+      <find>Sodium</find>
+      <find>sodium</find>
     </findStrings>
+    <replaceStrings>
+      <replace>sodium_</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,6 +197,7 @@
         <option value="$PROJECT_DIR$/install.sh" />
         <option value="$PROJECT_DIR$/publish.php" />
         <option value="$PROJECT_DIR$/classes/PHPAntSigner.class.php" />
+        <option value="$PROJECT_DIR$/CHANGES" />
       </list>
     </option>
   </component>
@@ -186,9 +214,15 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="1919" />
     <option name="width" value="1922" />
     <option name="height" value="1081" />
+=======
+    <option name="y" value="27" />
+    <option name="width" value="1600" />
+    <option name="height" value="873" />
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -226,6 +260,10 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,20 +276,14 @@
               <item name="ant-signer" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="ant-signer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpant-app-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ant-signer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpant-app-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,12 +325,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512854935255</updated>
+<<<<<<< HEAD
       <workItem from="1512854936475" duration="16536000" />
       <workItem from="1513037067331" duration="2457000" />
+=======
+      <workItem from="1512854936475" duration="15938000" />
+      <workItem from="1513803323430" duration="1258000" />
+      <workItem from="1513818691070" duration="438000" />
+      <workItem from="1513819165243" duration="2218000" />
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="18993000" />
   </component>
   <component name="ToolWindowManager">
@@ -313,6 +353,24 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="19852000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1600" height="873" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.249375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -335,18 +393,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../../bugzy/www/includes/apps/phpant-app-manager/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/tests/testapp/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="47" />
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/tests/testapp/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+=======
+    <entry file="file://$PROJECT_DIR$/tests/expected/expected-registerhook.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -358,14 +428,6 @@
           <folding>
             <element signature="e#7#38#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/expected/expected-registerhook.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -407,15 +469,184 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/PHPAntSigner.class.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6239">
+          <caret line="367" column="40" lean-forward="true" selection-start-line="367" selection-start-column="40" selection-end-line="367" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/testapp/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
+          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/SignerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="2958">
+=======
+        <state relative-caret-position="3132">
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
+          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/expected/expected-registerhook.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/PublisherTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="680">
+=======
+        <state relative-caret-position="720">
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
+          <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="187">
+=======
+        <state relative-caret-position="198">
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#30#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Publisher.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1615">
+=======
+        <state relative-caret-position="1710">
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
+          <caret line="95" column="25" lean-forward="false" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildphar.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="34">
+=======
+        <state relative-caret-position="36">
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/PHPAntSigner.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="9656">
           <caret line="568" column="0" lean-forward="false" selection-start-line="568" selection-start-column="0" selection-end-line="568" selection-end-column="0" />
           <folding>
             <marker date="1512875303352" expanded="true" signature="15820:15961" ph="..." />
             <marker date="1512875303352" expanded="true" signature="18080:18089" ph="..." />
+=======
+        <state relative-caret-position="6552">
+          <caret line="364" column="51" lean-forward="false" selection-start-line="361" selection-start-column="0" selection-end-line="370" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/testapp/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/SignerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3132">
+          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/tests/expected/expected-registerhook.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/PublisherTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#30#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Publisher.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="95" column="25" lean-forward="false" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildphar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/PHPAntSigner.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10224">
+          <caret line="568" column="0" lean-forward="false" selection-start-line="568" selection-start-column="0" selection-end-line="568" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
     <entry file="file://$PROJECT_DIR$/classes/PHPAntSignerFile.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -435,6 +666,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -443,9 +675,12 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="84" />
           <folding />
+=======
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/bugzy/www/includes/apps/phpant-app-manager/app.php" />
     <entry file="file://$PROJECT_DIR$/tests/testapp/flotsam.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -511,6 +746,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Publisher.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="25" lean-forward="false" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/buildphar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -528,7 +771,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/publish.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="187">
+=======
+        <state relative-caret-position="221">
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
           <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding>
             <element signature="e#30#56#0#PHP" expanded="true" />
@@ -536,22 +783,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Publisher.class.php">
+    <entry file="file://$PROJECT_DIR$/classes/PHPAntSigner.class.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1615">
           <caret line="95" column="25" lean-forward="false" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+=======
+        <state relative-caret-position="222">
+          <caret line="361" column="39" lean-forward="false" selection-start-line="361" selection-start-column="33" selection-end-line="361" selection-end-column="39" />
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/PHPAntSigner.class.php">
+    <entry file="file://$PROJECT_DIR$/CHANGES">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="580">
           <caret line="568" column="0" lean-forward="false" selection-start-line="568" selection-start-column="0" selection-end-line="568" selection-end-column="0" />
           <folding>
             <marker date="1512875303352" expanded="true" signature="15820:15961" ph="..." />
             <marker date="1512875303352" expanded="true" signature="18080:18089" ph="..." />
           </folding>
+=======
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
         </state>
       </provider>
     </entry>

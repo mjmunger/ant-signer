@@ -8,13 +8,16 @@
     <orderEntry type="module-library">
       <library name="PHP" type="php">
         <CLASSES>
+          <root url="file://$MODULE_DIR$/../php-ant" />
           <root url="file:///usr/share/php" />
         </CLASSES>
         <SOURCES>
+          <root url="file://$MODULE_DIR$/../php-ant" />
           <root url="file:///usr/share/php" />
         </SOURCES>
       </library>
     </orderEntry>
+<<<<<<< HEAD
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
@@ -31,5 +34,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+=======
+>>>>>>> bae7468a599869add9d56e83f72b5990dbcde0ff
   </component>
 </module>

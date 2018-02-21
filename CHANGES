@@ -1,0 +1,5 @@
+# Change log
+
+## Branch: php-7.2
+
+This branch has been updated to use the Sodium core functions instead of the pecl extension. Previous versions of ant-signer used the pecl extension. This version will not work with previous versions of PHP.
