@@ -27,7 +27,7 @@ class Publisher
         echo "";
         echo "======================================================================" . PHP_EOL;
         echo "PHP-Ant application publisher and code signer." . PHP_EOL;
-        echo "Version: 1.0" . PHP_EOL;
+        echo "Version: 1.1" . PHP_EOL;
         echo "Report issues to: https://github.com/mjmunger/ant-signer" . PHP_EOL;
         echo "======================================================================" . PHP_EOL;
         echo "";

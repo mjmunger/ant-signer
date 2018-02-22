@@ -1,6 +1,6 @@
 <?php
 
-$phar = new Phar("antpub.phar", 0,'antpub.phar');
+$phar = new Phar("ant-publish.phar", 0,'ant-publish.phar');
 $phar->startBuffering();
 $phar->buildFromDirectory('.');
 $defaultStub = $phar->createDefaultStub('publish.php');
